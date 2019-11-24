@@ -3,7 +3,7 @@ require 'pry'
 class EmailAddressParser
 
   attr_accessor :emails
-  @@sorted = []
+
 
   def initialize(emails)
     @emails = emails
